@@ -1,0 +1,59 @@
+.position-relative {
+  position: relative;
+
+}
+.social-media_icons svg path{
+  fill: black !important;
+}
+.social-media_icons svg {
+  width: 20px ;
+  height: 20px;
+
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.social-media_icons svg path {
+  fill: #0f3959;
+}
+  .swiper {
+    width: 100%;
+    height: calc(100vh - 85px); 
+
+    margin-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .position-ab {
+    position:absolute;
+    text-align: center;
+    top: 20%;
+    padding: 50px;
+    left: 0;
+    right: 0;
+    background-color: #0f395956;
+    z-index: 999;
+  }
+  .flex-column.position-ab .section-text, 
+  .flex-column.position-ab .section-subtitle {
+    color: black !important;
+    font-size: 20px;
+  } 

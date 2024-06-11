@@ -1,0 +1,238 @@
+
+.upper {
+    left: 0;
+    right: 0;
+    top: 0;
+    position: relative; 
+    animation: color-change 6s ease infinite alternate;
+    color: #ffffff;
+    padding:  25px 10px;
+    /* font-size: 1.5em; */
+    font-weight: 400;
+    box-sizing: border-box;
+    /* box-shadow: 1px 2px 3px red; */
+    
+}
+.upper a {
+  color:  #fff;
+  font-weight: 400  ;
+  font-size: 20px;
+  
+}
+  
+@keyframes color-change {
+    0% { background: #0f3959; }
+    50% { background: #0c4c91; }
+    100% { background: #0f3959; }
+    
+}
+
+
+.upper h1 {
+  margin-bottom: 0;
+}
+
+
+
+
+* {
+  margin:0;
+  padding:0;
+  outline: none;
+  box-sizing: border-box;
+}
+svg path {
+  fill: #0f3959;
+}
+svg {
+  width:  25px;
+  height: 25px;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__icon {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.menu__icon div {
+  background-color: #ffffff;
+  border-radius: 2px;
+  height: 6px;
+
+}
+.menu__icon div:nth-child(2) {
+  margin: 6px 0;
+}
+
+.menu__icon.activated div:nth-child(1) {
+  animation: menuAnim1 0.3s ease-in-out forwards;
+}
+.menu__icon.activated div:nth-child(2) {
+  animation: menuAnim2 0.3s ease-in-out forwards;
+}
+.menu__icon.activated div:nth-child(3) {
+  animation: menuAnim3 0.3s ease-in-out forwards;
+}
+.menu__icon.inactivated div:nth-child(1) {
+  animation: revmenuAnim1 0.3s ease-in-out;
+}
+.menu__icon.inactivated div:nth-child(2) {
+  animation: revmenuAnim2 0.3s ease-in-out;
+}
+.menu__icon.inactivated div:nth-child(3) {
+  animation: revmenuAnim3 0.3s ease-in-out;
+}
+
+@keyframes menuAnim1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  70% {
+    transform: translateY(12px);
+  }
+  100% {
+    transform: translateY(12px) rotateZ(45deg);
+  }
+}
+@keyframes menuAnim2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes menuAnim3 {
+  0% {
+    transform: translateY(0);
+  }
+
+  70% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(-12px) rotateZ(135deg);
+  }
+}
+
+@keyframes revmenuAnim1 {
+  0% {
+    transform: translateY(12px) rotateZ(45deg);
+  }
+
+  70% {
+    transform: translateY(12px);
+  }
+  100% {
+    transform: translateY(0px) rotateZ(0deg);
+  }
+}
+@keyframes revmenuAnim2 {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes revmenuAnim3 {
+  0% {
+    transform: translateY(-12px) rotateZ(135deg);
+  }
+
+  70% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0) rotateZ(0);
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 288px;
+  height: calc(100vh - 76px); /* my header height was 76px */
+  right: -288px;
+  top: 76px;
+  z-index: 9999;
+  padding: 24px 16px;
+  row-gap: 16px;
+  background-color: #0f3959;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.menu a {
+  color: #ffffff !important;
+
+}
+.menu.activated {
+  right: 0;
+}
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .nav__item {
+      margin: 0 10px;
+  }
+
+  .nav__item:hover::after,
+  .nav__item.activated::after {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+header{
+    padding: 10px 5px;
+}
+  .flex-row, .nav__menu, .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav .flex-row a  span{
+    display: flex;
+    align-items: center;
+  }
+@media screen and (min-width: 768px){
+    .menu__icon{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 768px){
+    .nav__menu {
+        display: none;
+    }
+
+}
+.menu__icon:active .nav__menu {
+  display: flex;
+  flex-direction: column;
+     
+
+    
+}

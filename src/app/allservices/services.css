@@ -1,0 +1,42 @@
+.services__container {
+    padding: 0 100px;
+}
+.services__container .catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 900;
+ }
+ .services__container .collection {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+ }
+ .services__container .collection .text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    z-index: 1;
+ }
+
+ .services__container .collection .overlay {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    background-color: #55555591;
+    height: 100%;
+    border-radius: 10px;
+ }

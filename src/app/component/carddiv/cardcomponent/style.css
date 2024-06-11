@@ -1,0 +1,220 @@
+
+.items_wrap {
+    position: relative;
+}
+@media screen and (max-width: 767px) {
+    .cards_section .slick-list.draggable {
+        overflow: hidden;
+    }
+    .cards_section .slick-track {
+        display: flex;
+    }    
+    .cards_section .wrapper {
+        position: relative;
+        overflow: hidden;
+    }    
+        
+}
+
+
+.cards_section {
+    margin-bottom: 90px;
+}
+.cards_section .sub_wrapper {
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.cards_section .items_wrap {
+    /* width: 380px; */
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.cards_section .item {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.cards_section .content {
+    text-align: center;
+    margin-bottom: 49px;
+}
+.cards_section .content .cards_title {
+    color: #000;
+    font-size: 50px;
+    line-height: 1.4;
+    font-weight: 700;
+    display: block;
+}
+.cards_section .content .cards_text {
+    color: #0f3959;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.2;
+    display: inline-block;
+}
+.cards_section .image {
+    position: relative;
+    align-items: flex-start;
+}
+.cards_section .image .offer {
+    position: absolute;
+    background-color: #0f3959;
+    display: block;
+    padding: 9px 18px;
+    border-radius: 60px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    left: 30px;
+    top: 30px;
+}
+.cards_section .image .bgcolor {
+    background-color: #35CADC;
+}
+.cards_section .card_icon-wrap {
+    max-width: 91%;
+    margin: -27px auto 24px;
+    padding: 16px 18px;
+    z-index: 9999;
+    position: relative;
+    
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.cards_section .card_content {
+    padding: 0 29px;
+}
+.cards_section .icon {
+    max-width: 15px;
+    height: 16px;
+    margin-right: 14px;
+}
+.cards_section .card_icon-text {
+    color: #000;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    display: inline-block;
+}
+.cards_section .card_icon:not(:last-child){
+    margin-right: 14px;
+}
+.cards_section .card_start-wrap {
+    max-width: 75px;
+}
+section .info_wrap {
+    padding: 15px 0 29px;
+}
+
+.justify_space-between {
+    justify-content: space-between;
+}
+.cards_section .info_title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+.text_capitalize {
+    text-transform: capitalize;
+}
+.align_center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.cards_section .sub_title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.cards_section .location-icon {
+    height: 15px;
+    margin-right: 7px;
+}
+.cards_section .location-text {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999;
+}
+.cards_section .location_wrap {
+    margin-bottom: 51px;
+}
+.cards_section .info {
+    border-top: 1px solid #999999;
+}
+.cards_section .info_wrap {
+    padding: 15px 0 29px;
+}
+.cards_section .info_title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+.cards_section .price {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 700;
+    color: #0f3959;
+}
+.info_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cards_section .compare_price {
+    display: inline-block;
+    margin-left: 15px;
+    color: #D9D9D9;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.cards_section .ex-text {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    color: #0f3959;
+    margin-right: 9px;
+}
+.cards_section .arrow {
+    max-width: 19px;
+    height: 15px;
+}
+.width-15 {
+    width: 15px;
+    height: 16px;
+}
+.width-16 {
+    width: 16px;
+    height: 16px;
+
+}
+.width-75 {
+    width: 75px;
+    height: 14px;
+}
+.width-75 path {
+    fill: #35CADC;
+}
+.width-21 {
+    width: 21px;
+    height: 16px;
+}
+.width-13 {
+    width: 13px;
+    height: 15px;
+}
+.image-z {
+    display: block;
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+}
