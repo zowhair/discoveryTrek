@@ -5,16 +5,16 @@ export const k2 = {
     metadata_:"Learn about K2, the second-highest mountain in the world and one of the most challenging mountaineering expeditions. Discover its location near the Baltoro Glacier, its nickname \"Savage Mountain\,\" and the hazards climbers face.",
     content: `<article>
     <header>
-        <h1>K2: The Savage Mountain</h1>
+        <h1>K2: The Savage  Mountain</h1>
     </header>
     <section>
         <p>Climbing K2 is considered the top mountaineering expedition in the whole world. "K" stands for the Karakoram range, and "2" denotes its position as the second-highest peak listed. Located near the Baltoro Glacier in the extreme north of Gilgit Baltistan, K2's boundary crosses between two countries.</p>
 
         <p>To reach the base camp of K2, climbers must navigate through action-packed and riveting hazards. George Bell, a famous American climber, named it the "Savage Mountain" in 1953, famously declaring that "K2 is a savage mountain that tries to kill you." It is also alternatively called "The King of Mountains" and "The Mountaineers' Mountain."</p>
 
-        <p>K2 has never been climbed from its eastern face. Approximately 400 people have successfully climbed K2, while around 85 deaths have occurred during attempts. Climbers face key difficulties, including extremely high altitude and lack of oxygen, severe storms lasting several days resulting in fatalities, and the steep and exposed nature of the routes.</p>
+        <p>K2 has never been climbed from  its eastern face. Approximately 400 people have successfully climbed K2, while around 85 deaths have occurred during attempts. Climbers face key difficulties, including extremely high altitude and lack of oxygen, severe storms lasting several days resulting in fatalities, and the steep and exposed nature of the routes.</p>
 
-        <p>The standard route, used by 75 percent of climbers, is the Abruzzi Spur, characterized by a series of rocks, snow and ice, black pyramids, and bottlenecks. The North Ridge route is rarely climbed due to its challenges.</p>
+        <p>The standard route, used  by 75 percent of climbers, is the Abruzzi Spur, characterized by a series of rocks, snow and ice, black pyramids, and bottlenecks. The North Ridge route is rarely climbed due to its challenges.</p>
     </section>
 </article>`
 }
@@ -23,7 +23,7 @@ export const Nangaparbet = {
     title: 'Nangaparbet',
     slug: 'nangaparbet',
     category: 'trek',
-    metadata_:"Learn about Nanga Parbat, the ninth highest mountain in the world, located in the Diamir District of Gilgit, Pakistan. Discover its Sanskrit meaning, climbing challenges, and prominent position in the Karakoram range.",
+    metadata_:"Learn about Nanga Parbat, the  ninth highest mountain in the world, located in the Diamir District of Gilgit, Pakistan. Discover its Sanskrit meaning, climbing challenges, and prominent position in the Karakoram range.",
     content: ` <article>
     <header>
         <h1>Nanga Parbat: The Naked Mountain</h1>
@@ -33,7 +33,7 @@ export const Nangaparbet = {
 
         <p>Lying to the south of the Indus River and marking the western end of the Karakoram range to the north, Nanga Parbat is one of the most prominent peaks globally. In 1895, Albert F Mummery led an expedition to the peak, marking the beginning of its mountaineering history.</p>
 
-        <p>Nanga Parbat is considered the most intimidating rock on the planet, requiring an extreme level of expertise and hard work to overcome. At least 31 people have lost their lives attempting to climb it. However, the base camp is relatively approachable.</p>
+        <p>Nanga  Parbat is considered the most intimidating rock on the planet, requiring an extreme level of expertise and hard work to overcome. At least 31 people have lost their lives attempting to climb it. However, the base camp is relatively approachable.</p>
 
         <p>The honor of climbing Nanga Parbat belongs to Simon Moro from Italy, Alex Txikon from Spain, and Ali Sadpara from Pakistan. Striking views of Nanga Parbat can be enjoyed from Fairy Meadows, adding to the allure and mystique of this majestic mountain.</p>
     </section>

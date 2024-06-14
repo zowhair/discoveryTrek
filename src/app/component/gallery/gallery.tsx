@@ -4,25 +4,25 @@ import './style.css'
 const arrimg = [
     {
         alt :"image",
-         src:'https://internationalyouthclub.org/wp-content/uploads/2021/07/mosel-4336787_640.jpg' 
+         src:'/images/Rakaposhi.jpg' 
     },
     {
-         src:'https://cdn.pixabay.com/photo/2018/08/06/06/18/kharmang-3586881_1280.jpg' ,
+         src:'/images/Rakaposhi.jpg' ,
          alt:'image'
 
     },
     {
-        src:'https://internationalyouthclub.org/wp-content/uploads/2021/07/bike-4952669_640.jpg' ,
+        src:'/images/Rakaposhi.jpg' ,
         alt : 'image'
 
     },
     {
 
-        src:"https://cdn.pixabay.com/photo/2018/08/27/08/11/tree-3634324_960_720.jpg" ,
+        src:"/images/Rakaposhi.jpg" ,
         alt: 'image'
     },
     {
-        src:'https://cdn.pixabay.com/photo/2017/05/15/09/25/satpara-lake-2314191_1280.jpg' ,
+        src:'/images/Rakaposhi.jpg' ,
         alt: 'image'
 
     }
@@ -69,7 +69,7 @@ export default function Gallery({src}: any) {
                         arrimg.map ((item, index) => (
                             
                             <SwiperSlide key={index}>
-                                <Image src={item.src} alt={item.alt} />
+                                <Image src={item.src} alt={item.alt} width={650} height={400} />
                             </SwiperSlide>
 
                         ))
@@ -82,7 +82,7 @@ export default function Gallery({src}: any) {
                             {
                             arrimg.map ((item, index) => (
                                 
-                                    <Image className='small-image_gallery' key={index} src={item.src} alt={item.alt} />
+                                <Image className='small-image_gallery' key={index} src={item.src} alt={item.alt} width={650} height={400}  />
 
                             ))
 

@@ -39,21 +39,21 @@ export default function Hero() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <Image src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363346_640.jpg" alt="" />
+            <Image src="/image/tree-2363346_640.jpg"  width="940" height="640" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <Image src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363348_1280.jpg" alt="" />
+            <Image src="/image/tree-2363348_1280.jpg" width="940" height="640"  alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="https://cdn.pixabay.com/photo/2018/09/07/07/35/upperkachora-3660064_960_720.jpg" alt="" />
+        <Image src="/image/tree-2363348_1280.jpg" width="940" height="640"  alt="" />
 
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="https://cdn.pixabay.com/photo/2018/09/07/07/35/upperkachora-3660064_960_720.jpg" alt="" />
+        <Image src="/image/tree-2363348_1280.jpg" width="940" height="640"  alt="" />
 
         </SwiperSlide>
         <SwiperSlide>
-        <Image src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363348_1280.jpg" alt="" />
+        <Image src="/image/tree-2363348_1280.jpg" alt="" width="940" height="640"  />
 
         </SwiperSlide>
         {/* <SwiperSlide>Slide 6</SwiperSlide>

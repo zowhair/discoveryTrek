@@ -60,18 +60,18 @@ export const k2_concordia = [
                 ]
             },
             {
-                title: "Urdukas to Goro 2 Camp ",
+                title: "Urdukas  to Goro 2 Camp ",
                 day: "6",
                 steps: [
                     "Trek to Goro Camp on the Baltoro Glacier.",
                     "Tough walk, 8 hours, with rocky moraines getting smaller.",
-                    "Views of Masherbrum and Gasherbrum 4.",
+                    "Views of Masherbrum and  Gasherbrum 4.",
                     "Arrival at Goro Camp with a great view of Muztagh Tower.",
                     "Overnight stay in Goro Camp."
                 ]
             },
-            {
-                title: "Goro to Concordia Camp",
+            { 
+                title: "Goro  to Concordia Camp",
                 day: "7",
                 steps: [
                     "Trek to Concordia Camp on the Baltoro Glacier.",
