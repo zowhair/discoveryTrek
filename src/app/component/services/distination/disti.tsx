@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import './style.css'
 export default function Distination() {
     return(
@@ -9,7 +10,7 @@ export default function Distination() {
                 <div className="item_wrap">
                     <div className="item displayflex">
                         <div className='image'>
-                            <img src="/image/Rectangle 17.png" />
+                            <Image alt="" src="/image/Rectangle 17.png" />
                         </div>
                     </div>
                 </div>
@@ -17,21 +18,21 @@ export default function Distination() {
                     <div className="item displayflex">
                         
                         <div className='image'>
-                            <img src="/image/Rectangle 17.png" />
+                            <Image alt="" src="/image/Rectangle 17.png" />
                         </div>
                     </div>
                 </div>
                 <div className="item_wrap">
                     <div className="item displayflex">
                         <div className='image'>
-                            <img src="/image/Rectangle 17.png" />
+                            <Image alt="" src="/image/Rectangle 17.png" />
                         </div>
                     </div>
                 </div>
                 <div className="item_wrap second_items">
                     <div className="item displayflex">
                         <div className='image'>
-                            <img src="/image/Rectangle 17.png" />
+                            <Image alt="" src="/image/Rectangle 17.png" />
                         </div>
                     </div>
                 </div>

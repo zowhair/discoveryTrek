@@ -41,6 +41,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
+import Image from 'next/image';
 
 export default function Gallery({src}: any) {
   return (
@@ -68,7 +69,7 @@ export default function Gallery({src}: any) {
                         arrimg.map ((item, index) => (
                             
                             <SwiperSlide key={index}>
-                                <img src={item.src} alt={item.alt} />
+                                <Image src={item.src} alt={item.alt} />
                             </SwiperSlide>
 
                         ))
@@ -79,9 +80,9 @@ export default function Gallery({src}: any) {
                         <div className='flex-row image-div_gallery'>
                             <div className='image-gallery'>
                             {
-                            arrimg.map ((item) => (
+                            arrimg.map ((item, index) => (
                                 
-                                    <img className='small-image_gallery' src={item.src} alt={item.alt} />
+                                    <Image className='small-image_gallery' key={index} src={item.src} alt={item.alt} />
 
                             ))
 

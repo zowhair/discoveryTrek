@@ -13,6 +13,7 @@ import './style.css';
 // import required modules
 // import { Pagination } from 'swiper/modules';
 import { Autoplay, Pagination } from 'swiper/modules';
+import Image from 'next/image';
 
 
 export default function Hero() {
@@ -38,21 +39,21 @@ export default function Hero() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <img src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363346_640.jpg" alt="" />
+            <Image src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363346_640.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363348_1280.jpg" alt="" />
+            <Image src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363348_1280.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://cdn.pixabay.com/photo/2018/09/07/07/35/upperkachora-3660064_960_720.jpg" alt="" />
+        <Image src="https://cdn.pixabay.com/photo/2018/09/07/07/35/upperkachora-3660064_960_720.jpg" alt="" />
 
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://cdn.pixabay.com/photo/2018/09/07/07/35/upperkachora-3660064_960_720.jpg" alt="" />
+        <Image src="https://cdn.pixabay.com/photo/2018/09/07/07/35/upperkachora-3660064_960_720.jpg" alt="" />
 
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363348_1280.jpg" alt="" />
+        <Image src="https://cdn.pixabay.com/photo/2017/06/01/12/11/tree-2363348_1280.jpg" alt="" />
 
         </SwiperSlide>
         {/* <SwiperSlide>Slide 6</SwiperSlide>

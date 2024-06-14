@@ -5,7 +5,7 @@ import Services from "../../component/services/services";
 import Testimonial from "../../component/testimonial/testimonial";
 import { k2_concordia, nangaparbet, biafoHispar } from "@/app/data";
 
-export default function Service({params}: string) {
+export default function Service({params}: any) {
     const slug_ = params.slug
     let data = []
     let category = ''

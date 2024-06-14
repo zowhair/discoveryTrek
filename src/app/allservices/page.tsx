@@ -21,8 +21,8 @@ export default function AllServices() {
                 <div className="title">Our Services</div>
 
                 <div className="catalog">
-                    {data && data.map((tour:any) => (
-                        <div className="collection">
+                    {data && data.map((tour:any, index:any) => (
+                        <div className="collection" key={index}>
                             <Link href={tour.slug}>
                                 <Image src={tour.image} width={800} height={400} alt="collection trekking" />
                                 <span className="text">{tour.title}</span>

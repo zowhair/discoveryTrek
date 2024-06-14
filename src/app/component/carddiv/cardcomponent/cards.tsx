@@ -1,15 +1,16 @@
 import Link from 'next/link';
 import './style.css'
 import { FaStar, FaUser, FaCalendarDays, FaLocationDot, FaArrowRight } from "react-icons/fa6";
+import Image from 'next/image';
 
-export default function CardComponent({data}) {
+export default function CardComponent({data}: any) {
     return(
         <div className="items_wrap  margin-bottom_top">
             <Link href={data[0].slug}>
                 <div className="item">
                     <div className="image_wrapper">
                         <div className="image flex">
-                            <img className='image-z' src="https://images.unsplash.com/photo-1604676055604-fe96097e4f9f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2thcmR1JTIwaG90ZWx8ZW58MHx8MHx8fDA%3D" alt="" />
+                            <Image className='image-z' src="https://images.unsplash.com/photo-1604676055604-fe96097e4f9f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2thcmR1JTIwaG90ZWx8ZW58MHx8MHx8fDA%3D" alt="" />
                             <span className="offer bgcolor">15% OFF</span>
                         </div>
                         <div className="card_icon-wrap flex align_center justify_space-between">

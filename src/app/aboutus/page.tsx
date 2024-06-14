@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import './style.css'
 export default function Aboutus() {
   const aboutData=  [
@@ -51,9 +52,9 @@ export default function Aboutus() {
       <div className="we-are-block ">
 
       {aboutData && aboutData.map(item => (
-        <div id={item.id}>
+        <div id={item.id} key={item.id}>
           <div className={item.classImg}>
-            <img src={item.image} width="808" height="458" alt="Lobby Image"/>
+            <Image src={item.image} width="808" height="458" alt="Lobby Image"/>
           </div>
           <div className={item.class_}>
             <h2>{item.title}</h2>

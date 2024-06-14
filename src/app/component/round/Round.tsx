@@ -9,7 +9,7 @@ export function Round(){
             <div className="colored-flex_component">
                 <div className="expert">Contact our Trekking Expert</div>
                 <div className="image-container">
-                    <img src="/images/shams.jpg"  alt="image" />
+                    <Image src="/images/shams.jpg"  alt="image" />
                 </div>
                 <div className="expert">Sajid Sadpara</div>
                 <Button content="Ask your question"/>

@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-import { k2, Nangaparbet, Gasherbrum, BroadPeak, Gasherbrum_II, Gasherbrum_IV, Masherbrum, guidToSkardu, k2ExpeditionPreparation, mountainTrekking, nangaparbetTricks, sakrduTourWithUs } from '@app/blog-data';
+import { k2, Nangaparbet, Gasherbrum, BroadPeak, Gasherbrum_II, Gasherbrum_IV, Masherbrum, guidToSkardu, k2ExpeditionPreparation, mountainTrekking, nangaparbetTricks, sakrduTourWithUs } from '../../blog-data';
 
 export default function StaticBlog() {
     const blogs = [k2, Nangaparbet, Gasherbrum, BroadPeak, Gasherbrum_II, Gasherbrum_IV, guidToSkardu, k2ExpeditionPreparation, mountainTrekking, nangaparbetTricks, sakrduTourWithUs];

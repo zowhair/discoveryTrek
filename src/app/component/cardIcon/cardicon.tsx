@@ -1,4 +1,5 @@
 // <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+import Image from 'next/image'
 import './style.css'
 export default function CardIcon() {
     return(
@@ -11,7 +12,7 @@ export default function CardIcon() {
        >
         <div className="box">
           <div className="imgBox">
-            <img src="https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trust & Co." />
+            <Image src="https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trust & Co." />
           </div>
           <div className="icon">
             <a href="#" className="iconBox"> <span className="material-symbols-outlined">
@@ -39,7 +40,7 @@ export default function CardIcon() {
        >
         <div className="box">
           <div className="imgBox">
-            <img src="https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tonic" />
+            <Image src="https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tonic" />
           </div>
           <div className="icon">
             <a href="#" className="iconBox"> <span className="material-symbols-outlined">
@@ -67,7 +68,7 @@ export default function CardIcon() {
       >
         <div className="box">
           <div className="imgBox">
-            <img src="https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shower Gel" />
+            <Image src="https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shower Gel" />
           </div>
           <div className="icon">
             <a href="#" className="iconBox"> <span className="material-symbols-outlined">

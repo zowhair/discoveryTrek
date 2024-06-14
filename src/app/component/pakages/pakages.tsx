@@ -2,12 +2,13 @@
 import { usePathname } from 'next/navigation'
 import './style.css'
 import Link from 'next/link'
-function PackageCard(props) {
+import Image from 'next/image'
+function PackageCard(props : any) {
   return (
     <Link href={props.data[0].slug} className='responsive'>
       <div className="package-card ">
         <figure className="card-banner">
-          <img src="https://images.unsplash.com/photo-1628179487664-a1f95c267a26?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" loading="lazy" />
+          <Image src="https://images.unsplash.com/photo-1628179487664-a1f95c267a26?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" loading="lazy" alt="" />
         </figure>
         <div className="card-content">
           <h3 className="h3 card-title">{props.data[0].title}</h3>
@@ -81,8 +82,8 @@ export default function Pakages(props: any) {
               </p>
 
               <ul className="package-list">
-                {props.data.map((item: any) => (
-                 <li>
+                {props.data.map((item: any, index: any) => (
+                 <li key={index}>
                   <PackageCard data={item} />
                 </li>
 
