@@ -24,7 +24,7 @@ export default function AllServices() {
                     {data && data.map((tour:any, index:any) => (
                         <div className="collection" key={index}>
                             <Link href={tour.slug}>
-                                <Image src={tour.image} width={800} height={400} alt="collection trekking" />
+                                <Image src={tour.image} width={800} height={400} alt="collection trekking" className='img' />
                                 <span className="text">{tour.title}</span>
                                 <div className="overlay"></div>
                             </Link>

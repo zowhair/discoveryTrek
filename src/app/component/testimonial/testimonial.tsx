@@ -14,16 +14,18 @@ export default function Testimonial() {
             <div className="sub_wrapper flex justify_space-between slidePlace">
                 <div className="img_wrap image1">
                     <div className="image displayflex">
-                        <Image src="/image/Ellipse%202.width={1000} height={650} " width={1000} height={650} alt="" />
-                        <div className="img_content">
-                            <h4 className="img_title text_capitalize">shigar</h4>
-                            <p className="img_text text_capitalize">2 tours</p>
-                        </div>
+                    <Image className='img round_image' src="/image/Ellipse%202.png"  width={600} height={450} alt="" />
+
+                    <div className="img_content">
+                        <h4 className="img_title text_capitalize">shigar</h4>
+                        <p className="img_text text_capitalize">2 tours</p>
+                    </div>
                     </div>
                 </div>
+                
                 <div className="img_wrap image2">
                     <div className="image displayflex">
-                        <Image src="/image/Ellipse%203.png" width={1000} height={650} alt="" />
+                        <Image className='img round_image' src="/image/Ellipse%203.png" width={600} height={450} alt="" />
                         <div className="img_content">
                             <h4 className="img_title text_capitalize">khaplu</h4>
                             <p className="img_text text_capitalize">2 tours</p>
@@ -32,7 +34,7 @@ export default function Testimonial() {
                 </div>
                 <div className="img_wrap image3">
                     <div className="image displayflex">
-                        <Image src="/image/Ellipse%204.png" width={1000} height={650} alt=""/>
+                        <Image  className='img round_image' src="/image/Ellipse%204.png"  width={600} height={450} alt=""/>
                         <div className="img_content">
                             <h4 className="img_title text_capitalize">kharmang</h4>
                             <p className="img_text text_capitalize">2 tours</p>
@@ -41,7 +43,7 @@ export default function Testimonial() {
                 </div>
                 <div className="img_wrap image2">
                     <div className="image displayflex">
-                        <Image src="/image/Ellipse%205.png" width={1000} height={650} alt=""/>
+                        <Image className='img round_image' src="/image/Ellipse%205.png"  width={600} height={450} alt=""/>
                         <div className="img_content">
                             <h4 className="img_title text_capitalize">kachura</h4>
                             <p className="img_text text_capitalize">2 tours</p>
@@ -50,67 +52,18 @@ export default function Testimonial() {
                 </div>
                 <div className="img_wrap image1">
                     <div className="image displayflex">
-                        <Image src="/image/Ellipse%206.png" width={1000} height={650} alt=""/>
+                        <Image className='img round_image' src="/image/Ellipse%206.png"  width={600} height={450} alt=""/>
                         <div className="img_content">
                             <h4 className="img_title text_capitalize">bashu</h4>
                             <p className="img_text text_capitalize">2 tours</p>
                         </div>
                     </div>
                 </div>
-                <div className="img_wrap image1 slide_img">
-                    <div className="image displayflex">
-                        {/* <Image src=" /image/Ellipse%205.png" alt=""/> */}
-                        <Image src="/image/Ellipse%202.png" width={1000} height={650} alt="" />
-
-                        <div className="img_content">
-                            <h4 className="img_title text_capitalize">shigar</h4>
-                            <p className="img_text text_capitalize">2 tours</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="img_wrap image2 slide_img">
-                    <div className="image displayflex">
-                        <Image src="/image/Ellipse 3.png" width={1000} height={650} alt=""/>
-                        <div className="img_content">
-                            <h4 className="img_title text_capitalize">khaplu</h4>
-                            <p className="img_text text_capitalize">2 tours</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="img_wrap image3 slide_img">
-                    <div className="image displayflex">
-                        <Image src="/image/Ellipse%204.png" width={1000} height={650} alt=""/>
-
-                        <div className="img_content">
-                            <h4 className="img_title text_capitalize">kharmang</h4>
-                            <p className="img_text text_capitalize">2 tours</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="img_wrap image2 slide_img">
-                    <div className="image displayflex">
-                        {/* <Image src="./image/Ellipse 5.png" alt=""/> */}
-                        <Image src="/image/Ellipse%205.png" width={1000} height={650} alt=""/>
-
-                        <div className="img_content">
-                            <h4 className="img_title text_capitalize">kachura</h4>
-                            <p className="img_text text_capitalize">2 tours</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="img_wrap image1 slide_img">
-                    <div className="image displayflex">
-                        <Image src="/image/Ellipse%206.png" width={1000} height={650} alt=""/>
-                        <div className="img_content">
-                            <h4 className="img_title text_capitalize">bashu</h4>
-                            <p className="img_text text_capitalize">2 tours</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             <div className="distination_content displayflex">
                 <div className="distination_img">
-                    <Image src="/image/Rectangle%2017.png" width={1000} height={650} alt="" />
+                    <Image className='img square-big_image' src="/image/Rectangle%2017.png" width={1000} height={650} alt="" />
                 </div>
                 <div className="distination_text-wrap">
                     <span className="section-subtitle">About</span>

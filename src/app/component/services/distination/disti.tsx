@@ -10,7 +10,7 @@ export default function Distination() {
                 <div className="item_wrap">
                     <div className="item displayflex">
                         <div className='image'>
-                            <Image alt="" src="/image/Rectangle 17.png"  width={900} height={650}/>
+                            <Image alt="" src="/image/Rectangle 17.png"  className='img' width={900} height={650}/>
                         </div>
                     </div>
                 </div>
@@ -18,21 +18,21 @@ export default function Distination() {
                     <div className="item displayflex">
                         
                         <div className='image'>
-                            <Image alt="" src="/image/Rectangle 17.png" width={900} height={650} />
+                            <Image alt="" src="/image/Rectangle 17.png" className='img' width={900} height={650} />
                         </div>
                     </div>
                 </div>
                 <div className="item_wrap">
                     <div className="item displayflex">
                         <div className='image'>
-                            <Image alt="" src="/image/Rectangle 17.png" width={900} height={650} />
+                            <Image alt="" src="/image/Rectangle 17.png" className='img' width={900} height={650} />
                         </div>
                     </div>
                 </div>
                 <div className="item_wrap second_items">
                     <div className="item displayflex">
                         <div className='image'>
-                            <Image alt="" src="/image/Rectangle 17.png" width={900} height={650} />
+                            <Image alt="" src="/image/Rectangle 17.png" className='img' width={900} height={650} />
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ export default function CardComponent({data}: any) {
                 <div className="item">
                     <div className="image_wrapper">
                         <div className="image flex">
-                            <Image className='image-z' src="/image/Rakaposhi.jpg" alt="" width={900} height={650} />
+                            <Image className='image-z img' src="/image/Rakaposhi.jpg" alt="" width={900} height={650} />
                             <span className="offer bgcolor">15% OFF</span>
                         </div>
                         <div className="card_icon-wrap flex align_center justify_space-between">

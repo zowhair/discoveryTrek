@@ -90,7 +90,7 @@ a:hover {
 }
 
 @media screen and (max-width: 644px) {
-  .about-us-image img {
+  .about-us-image  .img {
     position: absolute;
     left: -220px;
   }
@@ -238,7 +238,7 @@ a:hover {
 } */
 
 @media screen and (max-width: 644px) {
-  .history-image img {
+  .history-image  .img {
     position: absolute;
     right: -220px;
   }

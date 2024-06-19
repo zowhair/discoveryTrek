@@ -44,7 +44,7 @@
 .left {
     justify-content: left;
 }
-.product-block-item img {
+.product-block-item  .img {
     border-radius: 1.5rem 0 0 1.5rem;
     height: 100%;
     min-width: 280px;

@@ -4,25 +4,25 @@ import './style.css'
 const arrimg = [
     {
         alt :"image",
-         src:'/images/Rakaposhi.jpg' 
+         src:'/image/Rakaposhi.jpg' 
     },
     {
-         src:'/images/Rakaposhi.jpg' ,
+         src:'/image/Rakaposhi.jpg' ,
          alt:'image'
 
     },
     {
-        src:'/images/Rakaposhi.jpg' ,
+        src:'/image/Rakaposhi.jpg' ,
         alt : 'image'
 
     },
     {
 
-        src:"/images/Rakaposhi.jpg" ,
+        src:"/image/Rakaposhi.jpg" ,
         alt: 'image'
     },
     {
-        src:'/images/Rakaposhi.jpg' ,
+        src:'/image/Rakaposhi.jpg' ,
         alt: 'image'
 
     }
@@ -69,7 +69,7 @@ export default function Gallery({src}: any) {
                         arrimg.map ((item, index) => (
                             
                             <SwiperSlide key={index}>
-                                <Image src={item.src} alt={item.alt} width={650} height={400} />
+                                <Image src={item.src} alt={item.alt} width={650} height={400} className='img' />
                             </SwiperSlide>
 
                         ))
@@ -82,7 +82,7 @@ export default function Gallery({src}: any) {
                             {
                             arrimg.map ((item, index) => (
                                 
-                                <Image className='small-image_gallery' key={index} src={item.src} alt={item.alt} width={650} height={400}  />
+                                <Image className='small-image_gallery img' key={index} src={item.src} alt={item.alt} width={650} height={400}  />
 
                             ))
 

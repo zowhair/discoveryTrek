@@ -14,7 +14,7 @@ export function Collectioncard ( data: any ){
                         <div className="item-wrapper">
                             <div className="product-block">
                                 <div className="product-block-item">
-                                    <Image alt="image" width={500} height={1000} src={data.data.banner} />
+                                    <Image className='img' alt="image" width={500} height={1000} src={data.data.banner} />
                                 </div>
                                 <div className="product-block-item product-body">
                                     <div className="body-top">

@@ -92,10 +92,10 @@
     color: hsla(172, 100%, 21%, 1);
 
 }
-.active {
+/* .active {
     border-bottom: 2px solid hsla(172, 100%, 25%, 1);
 
-}
+} */
 .margin .flex {
     display: flex;
     justify-content: space-between;

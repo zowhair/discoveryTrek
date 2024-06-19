@@ -23,9 +23,10 @@
 .cards_section .sub_wrapper {
     flex-wrap: wrap;
     margin: 0 -15px;
+    justify-content: center;
 }
 .cards_section .items_wrap {
-    /* width: 380px; */
+   max-width: 380px;
     padding: 0 15px;
     margin-bottom: 30px;
 }
@@ -54,6 +55,10 @@
 .cards_section .image {
     position: relative;
     align-items: flex-start;
+    height: 300px;
+}
+.cards_section .image img {
+    height: 100%;
 }
 .cards_section .image .offer {
     position: absolute;

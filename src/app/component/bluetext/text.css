@@ -124,7 +124,7 @@ body {
     color: white;
     width: 70%;
 }
-.image-container .image img {
+.image-container .image  .img {
     border-radius: 24px;
     height: 21.875rem;
     margin: 0;

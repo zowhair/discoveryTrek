@@ -16,7 +16,7 @@ li {
 }
 .package-card .card-banner { height: 250px; }
 
-.package-card .card-banner img {
+.package-card .card-banner  .img {
   width: 100%;
   height: 100%;
   object-fit: cover;

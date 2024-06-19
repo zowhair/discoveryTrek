@@ -1,9 +1,17 @@
 .services__container {
-    padding: 0 100px;
+   margin: 0 auto;
+   width: 100%;
+   display: block;
+   box-sizing: border-box;
+}
+.services__container .services_wrapper {
+   margin: 20px auto 30px auto;
 }
 .services__container .catalog {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .services__container .title {
@@ -15,11 +23,36 @@
     font-weight: 900;
  }
  .services__container .collection {
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     position: relative;
-    margin: 10px;
+    margin: 10px auto;
  }
+ @media screen and (min-width: 900px){
+   .services__container .collection .img {
+     width: 800px;
+   }
+  
+}
+ @media screen and (max-width: 900px){
+   .services__container .collection .img {
+     width: 700px;
+   }
+  
+}
+ @media screen and (max-width: 769px){
+   .services__container .collection .img {
+     width: 600px;
+   }
+  
+}
+@media screen and (max-width: 580px){
+
+   .services__container .collection .img {
+     width: 400px;
+   }
+  
+}
  .services__container .collection .text {
     position: absolute;
     left: 50%;
@@ -38,5 +71,5 @@
     width: 100%;
     background-color: #55555591;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
  }

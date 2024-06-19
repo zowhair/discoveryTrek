@@ -8,16 +8,12 @@ export function Text({...props}: any){
     return(
         <div className="text-main_container ">
             <div className="container-block">
-                
                     <div className="text-container">
                         <div className="title">
                             <h2>
                             Itinerary
                             </h2>
-
                         </div>
-
-
                         <div className="block-text">
                             {itenerary ? itenerary.map((data : any) => {
                                 return (

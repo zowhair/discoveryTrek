@@ -12,7 +12,7 @@ We have many packages and deals and also support custom deals for you.
 </p>
             <div className='flex-row justify-center'>
                 <div className="card">
-                    <Image src="https://s13.postimg.cc/5al19x0d3/media_img.jpg" className="card-media" alt="" />
+                    <Image src="https://s13.postimg.cc/5al19x0d3/media_img.jpg" className="card-media img" alt=""  />
                     <div className="card-details">
                         <h2 className="card-head">Kangaroo Valley Safari</h2>
                         <p>Located two hours south of Sydney in the Southern Highlands of New South Wales, ...</p>
@@ -23,7 +23,7 @@ We have many packages and deals and also support custom deals for you.
                 {/* repeate */}
 
                 <div className="card">
-                    <Image src="https://s13.postimg.cc/5al19x0d3/media_img.jpg" className="card-media" alt="" />
+                    <Image src="https://s13.postimg.cc/5al19x0d3/media_img.jpg" className="card-media img" alt="" />
                     <div className="card-details">
                         <h2 className="card-head">Kangaroo Valley Safari</h2>
                         <p>Located two hours south of Sydney in the Southern Highlands of New South Wales, ...</p>
@@ -32,7 +32,7 @@ We have many packages and deals and also support custom deals for you.
                     </div>
                 </div>
                 <div className="card">
-                    <Image src="https://s13.postimg.cc/5al19x0d3/media_img.jpg" className="card-media" alt="" />
+                    <Image src="https://s13.postimg.cc/5al19x0d3/media_img.jpg" className="card-media img" alt="" />
                     <div className="card-details">
                         <h2 className="card-head">Kangaroo Valley Safari</h2>
                         <p>Located two hours south of Sydney in the Southern Highlands of New South Wales, ...</p>

@@ -67,9 +67,11 @@
 }
 .distination .item_wrap .image {
     max-width: 350px;
+    height: 400px;
 }
-.distination .item_wrap .image img {
+.distination .item_wrap .image  .img {
     width: 100%;
+    height: 100%;
 }
 .distination .second_items {
     margin-bottom: -30px;
