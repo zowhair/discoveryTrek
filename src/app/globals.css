@@ -174,14 +174,6 @@ a {
 @media screen and (max-width: 580px) {
   .responsive{
     margin: 50px auto;
-    width: 500px;
-  }
-  
-}
-@media screen and (max-width: 380px) {
-  .responsive{
-    margin: 50px auto;
     width: 300px;
   }
-  
 }
