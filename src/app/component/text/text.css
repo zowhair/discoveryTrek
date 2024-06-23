@@ -170,3 +170,9 @@ body {
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
+@media screen and (max-width: 780px){
+    .space-manager {
+        display: flex;
+        flex-direction: column;
+    }
+}

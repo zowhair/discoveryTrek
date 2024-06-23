@@ -101,7 +101,7 @@
         overflow: hidden;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 980px) {
     .place_distination .distination_content {
         flex-direction: column;
         align-items: flex-start;
@@ -144,7 +144,7 @@
     width: 500px;
     height: 200px;
 }
-@media screen and (min-width: 1200px){
+/* @media screen and (min-width: 1200px){
 
     .square-big_image {
         width: 800px;
@@ -176,11 +176,24 @@
         width: 400px;
         height: 400px;
     }
-}
+} */
 /* .square-big_image {
     width: 350px;
     height: 300px;
 } */
+@media screen and (max-width: 767px){
+    .square-big_image {
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 767px){
+    .square-big_image {
+        width: 650px;
+        height: 600px;
+    }
+} 
+
 
 
 .distination_text-wrap {

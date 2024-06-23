@@ -144,9 +144,12 @@ a {
 @media screen and (min-width: 1400px) {
   .responsive{
     margin: 50px auto;
-    width: 1350px;
+    width: 1300px;
   }
   
+}
+.responsive{
+padding: 10px 50px 10px 20px !important;
 }
 @media screen and (max-width: 1200px) {
   .responsive{
@@ -164,16 +167,18 @@ a {
     justify-content: center;
   }
 }
+
 @media screen and (max-width: 768px) {
   .responsive{
     margin: 50px auto;
-    width: 650px;
+    width: 600px;
   }
   
 }
+
 @media screen and (max-width: 580px) {
   .responsive{
     margin: 50px auto;
-    width: 300px;
+    width: 300px; 
   }
 }

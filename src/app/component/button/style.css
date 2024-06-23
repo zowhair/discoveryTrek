@@ -1,9 +1,8 @@
 .book-now {
     background-color: #0c4c91;
-    padding: 10px;
     text-align: center;
     color: white;
-    border-radius: 10px;
+    border-radius: 100px;
     cursor: pointer;
     text-transform: uppercase;
     line-height: 2.2;

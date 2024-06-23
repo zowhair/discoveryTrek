@@ -58,6 +58,9 @@ body {
     flex-direction: row;
     align-items: center;
 }
+.text-main_container .container-block .block-text .text-title_heading .h3 {
+    color: #0c4c91;
+}
 .text-main_container .container-block .block-text .text-title_heading .serial-number .small{
     color: #0c4c91;
     text-transform: uppercase;
@@ -169,4 +172,10 @@ body {
     gap: 3rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
+}
+@media screen and (max-width: 780px){
+    .space-manager {
+        display: flex;
+        flex-direction: column;
+    }
 }
